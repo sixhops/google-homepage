@@ -1,0 +1,81 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.headerbar {
+	!align: right;
+	height: 60px;
+}
+
+.signinbutton {
+	background-color: blue;
+	color: white;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	margin: 4px;
+}
+
+.search {
+	position: relative;
+}
+
+div img {
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.searchbox {
+	margin: auto;
+	margin-bottom: 20px;
+	display: block;
+	width: 500px;
+}
+
+.buttonlist {
+	display: block;
+	width: 300px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+div ul li {
+	display: inline-block;
+}
+
+.searchbutton {
+	color: "light gray";
+}
+
+.footerbar {
+	background-color: #999;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+.leftfooter {
+	float: left;
+}
+
+.leftfooter li {
+	display: inline;
+	margin: 10px;
+}
+
+.rightfooter {
+	float: right;
+}
+
+.rightfooter li {
+	display: inline;
+	margin: 10px;
+}
