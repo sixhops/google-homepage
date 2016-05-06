@@ -4,13 +4,15 @@ html, body {
 }
 
 .headerbar {
-	!align: right;
 	height: 60px;
 }
 
 .signinbutton {
 	background-color: blue;
 	color: white;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 nav {
@@ -20,6 +22,8 @@ nav {
 nav ul li {
 	display: inline;
 	margin: 4px;
+	font-size: 0.8em;
+	font-family: sans-serif;
 }
 
 .search {
@@ -38,6 +42,9 @@ div img {
 	margin-bottom: 20px;
 	display: block;
 	width: 500px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 .buttonlist {
@@ -53,10 +60,13 @@ div ul li {
 
 .searchbutton {
 	color: "light gray";
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 .footerbar {
-	background-color: #999;
+	background-color: #ddd;
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
@@ -69,6 +79,8 @@ div ul li {
 .leftfooter li {
 	display: inline;
 	margin: 10px;
+	font-size: 0.8em;
+	font-family: sans-serif;
 }
 
 .rightfooter {
@@ -78,4 +90,7 @@ div ul li {
 .rightfooter li {
 	display: inline;
 	margin: 10px;
+	font-size: 0.8em;
+	font-family: sans-serif;
 }
+
